@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chó cảnh ",
+      "price": "11000000",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.sarEYXutqGM8hd8RT04l-AHaFV&pid=Api&P=0&h=180",
+      "desc": "chó màu trắng "
+    },
+    {
+      "id": 3,
+      "name": "Mèo cute",
+      "price": "200000",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.rXPrUPinqeEzo537E5IM5wHaFO&pid=Api&P=0&h=180",
+      "desc": "mèo đang bùn "
+    },
+    {
+      "id": 4,
+      "name": "Chuột ",
+      "price": "100",
+      "image": "https://tse2.explicit.bing.net/th?id=OIP.oeUni3a_w8ZwlihGeuNqEgHaFl&pid=Api&P=0&h=180",
+      "desc": "hehe đây là con chuột nè"
+    },
+    {
+      "id": 5,
+      "name": "mèo ",
+      "price": "1300",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.vwZ6IQzkJYQIMGo9vk0eFAHaFj&pid=Api&P=0&h=180",
+      "desc": "hehe cái gì thế nhỉ "
+    }
+  ],
+  "categories": [
+    {
+      "name": "Chó ",
+      "id": 6
+    },
+    {
+      "name": "Mèo",
+      "id": 7
+    },
+    {
+      "name": "Chuột",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "password": "123456",
+      "roleId": 2
+    },
+    {
+      "name": "thanh lê",
+      "email": "thanhltph29388@fpt.edu.vn",
+      "password": "JRB63@wtFEfD8r",
+      "id": 3
+    },
+    {
+      "name": "thanhhahaha",
+      "email": "thanhltph29388@fpt.edu.vn",
+      "password": "JRB63@wtFEfD8r",
+      "id": 4
+    },
+    {
+      "email": "thanhltph29388@gmail.com",
+      "password": "JRB63@wtFEfD8r",
+      "id": 5
+    },
+    {
+      "name": "thanh",
+      "email": "thanh@gmail.com",
+      "password": "12345",
+      "id": 6
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
