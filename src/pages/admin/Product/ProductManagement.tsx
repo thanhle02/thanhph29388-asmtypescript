@@ -37,7 +37,7 @@ const ProductManagementPage = (props: IProps) => {
             title: 'Image',
             dataIndex: 'image',
             key: 'image',
-            render: (image) => <img style={{ width: "200px" }} src={image} />,
+            render: (image) => <img style={{ width: "200px" }} src={image} alt='' />,
         },
         {
             title: 'DESC',

@@ -51,7 +51,7 @@ const LogIn: React.FC = () => {
                 </div> */}
                 <div className="mb-3">
                     <label className="form-label" style={{ float: 'left', fontSize: '18px' }}>Password</label>
-                    <input type="password" className="form-control" onChange={(e) => setPassword(e.target.value)} />
+                    <input type="password" className="form-control" onChange={(e) => setPassword(e.target.value)} placeholder='mk'/>
                     {errors.password && <p style={{ color: 'red' }}>{errors.password}</p>}
                 </div>
                 <a href=""><button type="submit" className="btn btn-primary">login</button></a>

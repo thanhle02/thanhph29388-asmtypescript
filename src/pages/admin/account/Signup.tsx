@@ -38,15 +38,15 @@ const SignUp: React.FC = () => {
             <form onSubmit={handleSignUp}>
             <div className="mb-3">
                     <label className="form-label">name </label>
-                    <input type="text" className="form-control" onChange={(e) => setName(e.target.value)} />
+                    <input type="text" className="form-control" onChange={(e) => setName(e.target.value)} placeholder='name'/>
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Email address</label>
-                    <input type="text" className="form-control" onChange={(e) => setEmail(e.target.value)} />
+                    <input type="text" className="form-control" onChange={(e) => setEmail(e.target.value)} placeholder='email'/>
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Password</label>
-                    <input type="password" className="form-control" onChange={(e) => setPassword(e.target.value)} />
+                    <input type="password" className="form-control" onChange={(e) => setPassword(e.target.value)} placeholder='mk'/>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
                 <a className="btn btn-primary mx-3" href="/login">Login</a>

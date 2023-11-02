@@ -11,7 +11,9 @@
 }
 
 .logo {
-    width: 150px;
+    width: 200px;
+    margin-bottom: 20px;
+
 }
 
 .banner {
@@ -25,7 +27,7 @@
 }
 
 .ul {
-   
+
     display: flex;
     margin-top: 28px;
 }
@@ -40,7 +42,7 @@
     font-weight: bold;
     margin-right: 40px;
     font-size: 20px;
-   
+
 }
 
 ul li a:hover {
@@ -93,3 +95,19 @@ ul li a:hover {
     text-align: center;
     line-height: 100px;
 }
+
+.decoration a {
+    text-decoration: none
+}
+
+.search {
+    display: flex
+}
+
+.input {
+    margin: 40px
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
